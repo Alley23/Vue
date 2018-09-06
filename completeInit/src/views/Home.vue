@@ -3,13 +3,16 @@
     <div class="title"> {{mes}} </div>
     <ul>
         <li>
-            通过【$.route.params.id】获取参数{{$route.params.id}}
-        </li>
-        <li>
             使用【router-link】标签添加路由跳转
         </li>
         <li>
             使用【router-view】标签做路由载体
+        </li>
+        <li>
+            嵌套路由：
+        </li>
+        <li>
+            动态路由：通过【$.route.params.id】获取id参数{{$route.params.id}}
         </li>
         <li>
             编程式路由：通过js控制路由跳转;使用$route.query.id获取参数<br/>
